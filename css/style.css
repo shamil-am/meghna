@@ -1,0 +1,111 @@
+/*RESET CSS*/
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*HEADER*/
+
+.header{
+    display: initial;
+}
+
+.header-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../img/hero-area.jpg);
+  background-size: cover;
+  background-blend-mode: color-burn;
+  background-color: #00000099;
+  color: #ffffff;
+}
+
+.header-main .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-main .center h2 {
+  text-transform: capitalize;
+  font-size: 5rem;
+  font-weight: 900;
+  margin: 25px 0;
+}
+
+.header-main .center p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.header-main .center .explore {
+  border: 1px solid #ffffff;
+  display: inline-block;
+  padding: 14px 40px;
+  color: #ffffff;
+  margin-top: 40px;
+  transition: all 0.4s;
+}
+
+.header-main .center .explore:hover {
+  background-color: #57cbcc;
+}
+
+.header-main .play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  color: #57cbcc;
+}
+
+/*NAVIGATION*/
+
+.nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1d2024;
+  position: sticky;
+  top: 0;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav ul li {
+  margin-right: 20px;
+}
+
+
+
+
+
+section{
+    height: 100vh;
+}
