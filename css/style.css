@@ -124,16 +124,20 @@ a {
 
 .container{
   text-align: center;
-  padding: 0px 365px;
+  max-width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .container .row .col .about-us{
   padding-bottom: 60px;
 }
 .container .row .col .about-us .border{
     border-top: 2px solid rgba(236, 239, 241, 0.07);
+    width: 30%;
     margin: 15px auto;
     position: relative;
-    width: 30%;
 }
 .container .row .col .about-us .border::before{
   content: '';
@@ -166,6 +170,9 @@ a {
 /* SHORCUT */
 .d_flex{
   display:flex;
+}
+._trans{
+  transform: scalex(-1);
 }
 ._c{
   margin: 0px 15px;
