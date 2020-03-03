@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans&display=swap');
 /*RESET CSS*/
 html,
 body,
@@ -87,25 +89,101 @@ a {
 .nav {
   height: 80px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #1d2024;
   position: sticky;
   top: 0;
 }
-
+.nav .nav-menu a{
+  font-size: 16px;
+  color: #737f8a;
+  font-family: 'Anaheim', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: all 0.3s;
+}
+.nav .nav-menu a:hover{
+  color:#57cbcc;
+}
 .nav ul {
   display: flex;
 }
-
 .nav ul li {
   margin-right: 20px;
 }
 
-
-
-
-
-section{
-    height: 100vh;
+/* SECTION */ /* SECTION */
+.about{
+  height: 100vh;
+  border: 3px solid black;
+  padding: 100px 0px;
+  background-color: #353b43;
 }
+/* row1 */
+
+.container{
+  text-align: center;
+  padding: 0px 365px;
+}
+.container .row .col .about-us{
+  padding-bottom: 60px;
+}
+.container .row .col .about-us .border{
+    border-top: 2px solid rgba(236, 239, 241, 0.07);
+    margin: 15px auto;
+    position: relative;
+    width: 30%;
+}
+.container .row .col .about-us .border::before{
+  content: '';
+  height: 6px;
+  width: 50px;
+  background-color: #57cbcc;
+  position: absolute;
+  margin-left: -20px;
+  top: -4px;
+}
+.container .row .col .about-us h2{
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 38px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+.container .row .col .about-us h2 span{
+  color: #57cbcc;
+  margin-left: 10px;
+}
+
+/* row2 */
+.icon{
+  padding: 50px 0px;
+}
+/* SHORCUT */
+.d_flex{
+  display:flex;
+}
+._c{
+  margin: 0px 15px;
+  color: #737f8a;
+  background: #242930;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+._hcolor{
+  color: #afbac4;
+  font-size: 24px;
+  margin: 20px 0px 10px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 400;
+}
+._psize{
+  font-size: 14px;
+  margin: 0px 0px 10px;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+/* SHORTCUT */
