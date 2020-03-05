@@ -254,3 +254,46 @@ a {
 .contentleftbottom,.contentrightbottom{
   margin-top: 30px;
 }
+.four{
+  height: 100vh;
+}
+
+/* SECTION GREATDESIGN */
+.greatdesign{
+  background-image: url(../img/bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px 0px;
+}
+.greatdesign .row .col .greatdesigncontent{
+  text-align:center;
+}
+.greatdesign .row .col .greatdesigncontent h2{
+  margin: 20px 0px 10px;
+  font-size: 26px;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 700;
+  color: #444;
+}
+.greatdesign .row .col .greatdesigncontent p{
+  /* margin: 0px 0px 10px; */
+  font-size: 14px;
+  font-family: "Quattrocento Sans", sans-serif;
+  color: #666;
+  width: 30%;
+  margin: auto;
+  line-height: 1.4;
+}
+.greatdesign .row .col .greatdesigncontent a {
+    color: #fff;
+    background-color: #57cbcc;
+    padding: 10px 35px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 13px;
+    font-family: 'Anaheim', sans-serif;
+    letter-spacing: 1px;
+}
