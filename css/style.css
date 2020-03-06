@@ -374,3 +374,61 @@ color: #737f8a;
 .ourservices .container .col .insidecontent .iconcontent{
   text-align: center;
 }
+
+/* SECTION OURSKILLS */
+
+/* row1 */
+.ourskills{
+  padding: 100px 0px;
+  background: #292F36;
+}
+/* .ourskills .ourskillshead{
+  text-align: center;
+} */
+.ourskills .container{
+  max-width: 1200px;
+  margin: 0px auto 0px;
+}
+.ourskills .container .ourskillshead{
+  text-align: center;
+}
+.ourskills .container .row .col{
+  width: 50%;
+  padding: 0px 15px;
+}
+.ourskills .container .row.d_flex .col img{
+  max-width: 100%;
+}
+
+/* row2 */
+.ourskills .container .row.d_flex .col .progress{
+    height: 6px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.ourskills .container .row.d_flex .col .progress .busdev{
+    height: 100%;
+    width: 90%;
+    background-color: #57cbcc;
+}
+.ourskills .container .row.d_flex .col .progress .ana{
+  height: 100%;
+  width: 70%;
+  background-color: #57cbcc;
+}
+.ourskills .container .row.d_flex .col .progress .desi{
+  height: 100%;
+  width: 85%;
+  background-color: #57cbcc;
+}
+.ourskills .container .row.d_flex .col .progress .iosdev{
+  height: 100%;
+  width: 60%;
+  background-color: #57cbcc;
+}
+.ourskills .container .row.d_flex .col .progress .anddev{
+  height: 100%;
+  width: 95%;
+  background-color: #57cbcc;
+}
+    
