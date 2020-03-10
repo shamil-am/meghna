@@ -22,6 +22,57 @@ a {
   font-family: "Montserrat", sans-serif;
 }
 
+/* SHORCUT */
+.d_flex{
+  display:flex;
+}
+._alitcenter{
+  align-items: center;
+}
+._jus_con_cen{
+  justify-content: center;
+}
+._jus_con_sp_evenly{
+  justify-content: space-evenly;
+}
+._trans{
+  transform: scalex(-1);
+}
+._c{
+  margin: 0px 15px;
+  color: #737f8a;
+  background: #242930;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+._c:hover{
+  border-bottom: 2px solid #57cbcc;
+}
+._c:hover .icon{
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+._hcolor{
+  color: #afbac4;
+  font-size: 24px;
+  margin: 20px 0px 10px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 400;
+}
+._psize{
+  font-size: 14px;
+  margin: 0px 0px 10px;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+._text_ali_cen{
+  text-align: center;
+}
+
+/* SHORTCUT */
+
+
 /*HEADER*/
 
 .header{
@@ -167,48 +218,6 @@ a {
   padding: 50px 0px;
   transition: all 0.3s;
 }
-/* SHORCUT */
-.d_flex{
-  display:flex;
-}
-._alitcenter{
-  align-items: center;
-}
-._trans{
-  transform: scalex(-1);
-}
-._c{
-  margin: 0px 15px;
-  color: #737f8a;
-  background: #242930;
-  padding: 30px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid transparent;
-  transition: all 0.3s;
-}
-._c:hover{
-  border-bottom: 2px solid #57cbcc;
-}
-._c:hover .icon{
-  padding-top: 40px;
-  padding-bottom: 60px;
-}
-._hcolor{
-  color: #afbac4;
-  font-size: 24px;
-  margin: 20px 0px 10px;
-  font-family: 'Quattrocento Sans', sans-serif;
-  font-weight: 400;
-}
-._psize{
-  font-size: 14px;
-  margin: 0px 0px 10px;
-  font-family: 'Quattrocento Sans', sans-serif;
-}
-
-/* SHORTCUT */
-
-
 
 /* SECTION WEREDIGITAL */
 .weredigital{
@@ -377,30 +386,83 @@ color: #737f8a;
 
 /* SECTION OURSKILLS */
 
-/* row1 */
 .ourskills{
   padding: 100px 0px;
   background: #292F36;
 }
-/* .ourskills .ourskillshead{
-  text-align: center;
-} */
 .ourskills .container{
   max-width: 1200px;
   margin: 0px auto 0px;
 }
+/* row1 */
 .ourskills .container .ourskillshead{
   text-align: center;
 }
+.ourskills .container .ourskillshead h2{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+}
+.ourskills .container .ourskillshead span{
+  color: #57cbcc;
+  margin-left: 10px;
+}
+.ourskills .container  .border{
+  border-top: 2px solid rgba(236, 239, 241, 0.07);
+  width: 30%;
+  margin: 15px auto;
+  position: relative;
+  padding-bottom: 60px;
+}
+.ourskills .container .border::before{
+  content: '';
+  height: 6px;
+  width: 50px;
+  background-color: #57cbcc;
+  position: absolute;
+  margin-left: 140px;
+  top: -4px;
+  
+}
+/* row2 */
+/* col1 */
 .ourskills .container .row .col{
   width: 50%;
   padding: 0px 15px;
 }
+.ourskills .container .row.d_flex .col .diagram h2{
+  font-weight: 400;
+  font-family: "Quattrocento Sans", sans-serif;
+  color: #afbac4;
+  font-size: 30px;
+}
+.ourskills .container .row.d_flex .col .diagram p{
+  font-family: "Quattrocento Sans", sans-serif;
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color:#737f8a;
+}
+ /* col2 */
+ .ourskills .container .row.d_flex .col .skillprogress p{
+  font-size: 18px;
+  margin-bottom: 0;
+  font-family: "Quattrocento Sans", sans-serif;
+  color:#737f8a;
+ }
+ .ourskills .container .row.d_flex .col .skillprogress span{
+  font-style: italic;
+  font-size: 30px;
+  color: rgba(187, 187, 187, 0.34);
+  vertical-align: middle;
+ }
+ .ourskills .container .row.d_flex .col .skillprogress li{
+   line-height: 1.4;
+ }
 .ourskills .container .row.d_flex .col img{
   max-width: 100%;
 }
-
-/* row2 */
 .ourskills .container .row.d_flex .col .progress{
     height: 6px;
     background-color: #fff;
@@ -431,4 +493,133 @@ color: #737f8a;
   width: 95%;
   background-color: #57cbcc;
 }
-    
+
+/* SECTION OUR WORKS */
+/* row 1 */
+.ourworks{
+  padding: 100px 0px;
+  background: #353b43;
+}
+.ourworks .container{
+  max-width: 1150px;
+  margin: 0px auto 0px;
+}
+.ourworks .container .ourworkshead{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.ourworks .container .ourworkshead h2{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+}
+.ourworks .container .ourworkshead span{
+  color: #57cbcc;
+  margin-left: 10px;
+}
+.ourworks .container  .border{
+  border-top: 2px solid rgba(236, 239, 241, 0.07);
+  width: 30%;
+  margin: 15px auto;
+  position: relative;
+}
+.ourworks .container .border::before{
+  content: '';
+  height: 6px;
+  width: 50px;
+  background-color: #57cbcc;
+  position: absolute;
+  margin-left: -20px;
+  top: -4px;
+}
+/* row2 */
+.ourworks .button{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.ourworks .button .active{
+    background-color: transparent;
+    border: 1px solid #57cbcc;
+    color: #57cbcc;
+    font-size: 14px;
+    padding: 6px 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.ourworks .button .passive{
+    background-color: transparent;
+    border: 1px solid rgba(236, 239, 241, 0.07);
+    color: #737f8a;
+    font-size: 14px;
+    padding: 6px 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* row3 */
+.blacktag{
+  background-image: url(../img/portfolio-1.jpg);
+}
+.blackbucket{
+  background-image: url(../img/portfolio-2.jpg);
+}
+.clock{
+  background-image: url(../img/portfolio-3.jpg);
+}
+.bottle{
+  background-image: url(../img/portfolio-4.jpg)
+}
+.bag{
+  background-image: url(../img/portfolio-5.jpg)
+}
+.whitetag{
+  background-image: url(../img/portfolio-6.jpg)
+}
+.envilop{
+  background-image: url(../img/portfolio-7.jpg);
+}
+.notepad{
+  background-image: url(../img/portfolio-8.jpg);
+}
+.cell{
+  background-repeat: no-repeat ;
+  background-position: center;
+  background-size: cover;
+  margin: 20px 15px;
+  padding: 20px 20px;
+}
+.cell .inner{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 25px 70px;
+  visibility: hidden;
+}
+.cell:hover .inner{
+  visibility: visible;
+}
+.cell .inner .icon{
+  background-color: teal;
+  color: white;
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cell .inner a{
+  color: #555;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+.cell .inner p{
+  font-family: "Quattrocento Sans", sans-serif;
+  margin: 0 0 10px;
+  color: #737f8a;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
