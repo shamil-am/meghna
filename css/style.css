@@ -594,10 +594,11 @@ color: #737f8a;
   flex-direction: column;
   background-color: #ffffff;
   padding: 25px 70px;
-  visibility: hidden;
+  opacity:0;
+  transition: all 0.3s ease-out;
 }
 .cell:hover .inner{
-  visibility: visible;
+  opacity:1;
 }
 .cell .inner .icon{
   background-color: teal;
