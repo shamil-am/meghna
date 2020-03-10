@@ -623,3 +623,48 @@ color: #737f8a;
   line-height: 1.4;
 }
 
+/* SECTION INDICATOR BOX 4 */
+.indicatorbox4{
+  background-image: url(../img/bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 100px 0px;
+}
+.indicatorbox4 .container{
+  max-width: 1200px;
+  margin: 0px auto 0px;
+}
+.indicatorbox4 .common{
+  background-color: #292F36;
+  width: 25%;
+  margin-right: 30px;
+  padding: 25px 0px;
+}
+.indicatorbox4 .common:last-child{
+  margin-right: 0px;
+}
+.indicatorbox4 .common .inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.indicatorbox4 .common .inner i{
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: #737f8a;
+}
+.indicatorbox4 .common .inner span{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 50px;
+    color: #737f8a;
+}
+.indicatorbox4 .common .inner h3{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Quattrocento Sans", sans-serif;
+    color: #afbac4;
+    margin: 0;
+}
