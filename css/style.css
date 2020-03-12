@@ -1151,18 +1151,9 @@ footer .container .social ul li{
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
+  position: relative;
 }
-/* footer .container .social ul li:hover{
-  transform: rotateY(0deg);
-}
-footer .container .social ul li:hover a{
-  
-} */
-footer .container .social ul li:hover a>i{
-  color: #ffffff;
-  opacity:1;
-}
-footer .container .social ul li a{
+footer  .social .inter a{
   background-color: #26292e;
   border: 1px solid transparent;
   display: block;
@@ -1172,15 +1163,51 @@ footer .container .social ul li a{
   justify-content: center;
   align-items: center;
 }
-footer .container .social ul li a i{
-  font-size: 32px;
+footer  .social .inter a i{
   color: #55606a;
+  display: inline-block;
+  font-size: 32px;
+  line-height: 70px;
+  margin: 0;
   opacity: 0.3;
+
 }
-footer .footnote p{
-  margin: 10px 0px;
+footer  .social .cover a{
+  background-color: #57cbcc;
+  border: 1px solid transparent;
+  display: block;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer  .social .cover a i{
   color: #fff;
+  display: inline-block;
+  font-size: 32px;
+  line-height: 70px;
+  margin: 0;
+  opacity: 1;
 }
-footer .footnote p a{
+footer  .social .cover{
+  position: absolute;
+  top:0;
+  transform: rotateY(180deg);
+  opacity: 0;
+  transition: all 0.5s;
+}
+footer  .social li:hover .cover{
+  transform: rotateY(0deg);
+  opacity:1;
+}
+footer  .social li:hover .inter{
+  visibility: hidden;
+}
+/* row3 */
+footer .footnote{
+  margin-top: 20px;
+}
+footer .footnote p,a{
   color: #fff;
 }
